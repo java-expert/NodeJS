@@ -1,1 +1,3 @@
 NodeJS important points
+
+Node.js is a very powerful JavaScript-based framework/platform built on Google Chrome's JavaScript V8 Engine.

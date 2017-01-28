@@ -36,3 +36,7 @@ npm install express
 
 uninstall
 npm uninstall express
+
+npm update express   (update package.json for version or anything else and then run command)
+
+npm search express

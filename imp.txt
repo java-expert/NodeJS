@@ -24,6 +24,12 @@ and the same program can provide service to a much larger number of requests tha
 
 No Buffering − Node.js applications never buffer any data. These applications simply output the data in chunks.
 
+Callback is an asynchronous equivalent for a function.
+
+Node.js is a single-threaded application, but it can support concurrency via the concept of event and callbacks. Every API of Node.js is asynchronous and
+being single-threaded, they use async function calls to maintain concurrency. Node uses observer pattern. Node thread keeps an event loop and whenever a
+task gets completed, it fires the corresponding event which signals the event-listener function to execute.
+
 
 
 
